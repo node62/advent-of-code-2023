@@ -3,7 +3,6 @@ print("Enter the times and distances lines:")
 inp_times = input() 
 inp_distances = input()  
 
-# Parse input in a less clean way
 times = [int("".join(inp_times.split(":")[1].split()))]
 distances = [int("".join(inp_distances.split(":")[1].split()))]
 
